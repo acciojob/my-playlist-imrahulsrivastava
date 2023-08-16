@@ -1,16 +1,41 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <body>
+    <!-- the entire body must be written by student -->
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <main>
+      <h1 class="center">My Playlist</h1>
 
-</body>
+      <h2 class="center">Now Playing...</h2>
+      <div class="player_one">
+        <video controls>
+          <source src="sample-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
 
+      <h2 class="center">MP3 songs</h2>
+      <div class="player_two">
+        <audio controls>
+          <source src="sample-audio.mp3" type="audio/mp3" />
+          Your browser does not support the audio tag.
+        </audio>
+      </div>
+
+      <h2 class="center">Songs Playlist</h2>
+      <ul>
+        <li><a href="#" target="_blank">Song 1</a></li>
+        <li><a href="#" target="_blank">Song 2</a></li>
+        <li><a href="#" target="_blank">Song 3</a></li>
+        <li><a href="#" target="_blank">Song 4</a></li>
+      </ul>
+    </main>
+
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
 </html>
