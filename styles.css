@@ -42,3 +42,11 @@ a {
   margin: 0px 50px;
   padding: 20px 20px;
 }
+
+video {
+  width: 100%;
+}
+
+audio {
+  width: 100%;
+}
